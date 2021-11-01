@@ -6,6 +6,16 @@
 
 using namespace std;
 
+class Solution{
+    public:
+
+    private:
+    
+};
+
 signed main(){
+    IO;
+    //freopen("p.in", 'r', stdin);
+    //freopen("p.out", 'w', stdout);
     return 0;
 }
