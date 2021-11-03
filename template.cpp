@@ -15,7 +15,7 @@ class Solution{
 
 signed main(){
     IO;
-    //freopen("p.in", 'r', stdin);
-    //freopen("p.out", 'w', stdout);
+    //freopen("p.in", "r", stdin);
+    //freopen("p.out", "w", stdout);
     return 0;
 }
