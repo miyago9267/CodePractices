@@ -15,4 +15,4 @@
 接著遍歷一遍把沒回來的人都抓出來
 
 ## Note:
-- <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;1\leq&space;R\leq&space;N\leq&space;10^4" target="_blank"><img>
+- ![fuck u latex](https://latex.codecogs.com/gif.latex?\large&space;1\leq&space;R\leq&space;N\leq&space;10^4)
