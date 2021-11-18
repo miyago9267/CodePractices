@@ -15,4 +15,4 @@
 接著遍歷一遍把沒回來的人都抓出來
 
 ## Note:
-- $1\leg R\leg N\leg 10^4$
+- <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;1\leq&space;R\leq&space;N\leq&space;10^4" target="_blank"><img>
