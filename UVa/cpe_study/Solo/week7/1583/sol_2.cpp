@@ -10,7 +10,7 @@ using namespace std;
 
 void dig(){
     int sum, tmp;
-    for(int i=100000; i>=1; i--) {
+    for(int i=100005; i>=1; i--) {
         sum = i; tmp = i;
         while(tmp > 0) {
             sum += tmp%10;

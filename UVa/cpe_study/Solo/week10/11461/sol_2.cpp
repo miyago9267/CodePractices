@@ -10,7 +10,7 @@ signed main(){
     IO;
     int n, m; 
     while (cin>>n>>m, n || m) {
-        cout<<floor(sqrt(m))-ceil(sqrt(n))+1<<endl;
+        cout<<ceil(sqrt(m))-floor(sqrt(n))+(pow(sqrt(m),2)==m?1:0)+((pow(sqrt(n),2)==n?-1:0))<<endl;
     }
     return 0;
 }

@@ -10,8 +10,8 @@ set<int> sqr;
 
 signed main(){
     IO;
-    freopen("p.in", "r", stdin);
-    freopen("p.out", "w", stdout);
+    //freopen("p.in", "r", stdin);
+    //freopen("p.out", "w", stdout);
     int i, ct;
     for (i=1; i<1001; i++) sqr.insert(i*i);
     int n, m;
