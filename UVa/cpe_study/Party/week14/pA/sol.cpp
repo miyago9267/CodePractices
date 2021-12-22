@@ -16,9 +16,9 @@ signed main(){
     stringstream ss;
     set<int> use;
     while (getline(cin, s)) {
+        int num, flag = 0, ct;
         ss.str(""); ss.clear(); use.clear();
         vector<int> vec;
-        int num, flag = 0, ct;
         ss << s;
         ss >> ct;
         while (ss >> num) {
