@@ -11,7 +11,12 @@
 using namespace std;
 
 signed main(){
-    IO;
+    //IO;
+	#ifdef DEBUG
+		cout<<"\033[1;1;31mDebug outputing..."<<endl;
+		freopen("p.in", "r", stdin);
+		freopen("p.out", "w", stdout);
+	#endif
     int T; cin>>T;
     while (T--) {
         ll a, b, c; cin>>a>>b>>c;
