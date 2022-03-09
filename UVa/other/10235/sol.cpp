@@ -30,7 +30,7 @@ signed main(){
             rn += tmp%10;
             rn *= 10; tmp /= 10;
         }
-        cout<<rn<<endl;
+        //cout<<rn<<endl;
         cout<<n<<(pri[n]?" is not prime.":(pri[rn/10]?" is prime.":" is emirp."))<<endl;
     }
     return 0;
