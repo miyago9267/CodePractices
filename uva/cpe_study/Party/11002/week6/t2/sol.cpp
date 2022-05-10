@@ -1,5 +1,5 @@
 // By myg9267
-// i m suck at coding, so sad
+// i m bad in coding, so sad
 // it a me mario
 #include <bits/stdc++.h>
 #pragma GCC optimize("O1")
@@ -15,13 +15,6 @@
 
 using namespace std;
 
-class Solution{
-    public:
-
-    private:
-    
-};
-
 signed main(){
     IO;
     #ifdef DEBUG
@@ -29,8 +22,21 @@ signed main(){
 		freopen("p.out", "w", stdout);
 	#endif
 
-    // TODO
-
-    
+    char idk;
+    int T, n, sym; cin>>T;
+    vector<int> v(105*105);
+    for (auto ct=0;ct<T;ct++){
+        sym = 1;
+        cin>>idk>>idk>>n;
+        for (auto i=0;i<n*n;i++)
+            cin>>v[i];
+        for (auto i=0;i<n*n;i++){
+            if (v[i]!=v[n*n-i-1]||v[i]<0) {
+                sym=0; break;
+            }
+        }
+        if (sym) cout<<"Test #"<<++ct<<": Symmestric"<<endl;
+        else cout<<"Test #"<<++ct<<": Non-symmestric"<<endl;
+    }
     return EXIT_SUCCESS;
 }

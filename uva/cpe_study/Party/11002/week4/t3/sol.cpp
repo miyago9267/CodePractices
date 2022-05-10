@@ -1,5 +1,5 @@
 // By myg9267
-// i m suck at coding, so sad
+// i m bad in coding, so sad
 // it a me mario
 #include <bits/stdc++.h>
 #pragma GCC optimize("O1")
@@ -15,12 +15,15 @@
 
 using namespace std;
 
-class Solution{
-    public:
+string mp = " `1234567890-=QWERTYUIOP[]\\ASDFGHJKL;'ZXCVBNM,./";
+string s;
+string h(256, ' ');
 
-    private:
-    
-};
+void init(){
+    for(auto i=2;i<mp.size(); ++i ){
+        h[mp[i]] = mp[i-1];
+    }
+}
 
 signed main(){
     IO;
@@ -28,9 +31,11 @@ signed main(){
 		freopen("p.in", "r", stdin);
 		freopen("p.out", "w", stdout);
 	#endif
-
-    // TODO
-
     
+    init();
+    while (getline(cin, s)) {
+        for (auto c:s) cout <<h[c];
+        cout<<endl;
+    }
     return EXIT_SUCCESS;
 }

@@ -1,5 +1,5 @@
 // By myg9267
-// i m suck at coding, so sad
+// i m bad in coding, so sad
 // it a me mario
 #include <bits/stdc++.h>
 #pragma GCC optimize("O1")
@@ -15,11 +15,27 @@
 
 using namespace std;
 
-class Solution{
+class Sol{
     public:
+        void cal(string ipt){
+            res = 0, ct = 0;
+            for (auto c:ipt){
+                if (c=='X') ct=0;
+                else if (c=='O') res+=++ct;
+            }
+        }
 
+        Sol (){
+            cin>>testCt;
+            while (testCt--) {
+                cin>>ipt;
+                cal(ipt);
+                cout<<res<<endl;
+            }
+        }
     private:
-    
+        int testCt, res, ct;
+        string ipt;
 };
 
 signed main(){
@@ -29,8 +45,6 @@ signed main(){
 		freopen("p.out", "w", stdout);
 	#endif
 
-    // TODO
-
-    
+    Sol s;
     return EXIT_SUCCESS;
 }

@@ -1,6 +1,3 @@
-// By myg9267
-// i m suck at coding, so sad
-// it a me mario
 #include <bits/stdc++.h>
 #pragma GCC optimize("O1")
 #pragma GCC optimize("O2")
@@ -15,12 +12,10 @@
 
 using namespace std;
 
-class Solution{
-    public:
-
-    private:
+void dfs() {
     
-};
+
+}
 
 signed main(){
     IO;
@@ -28,9 +23,12 @@ signed main(){
 		freopen("p.in", "r", stdin);
 		freopen("p.out", "w", stdout);
 	#endif
-
-    // TODO
-
     
+    int h, k;
+    while (cin>>h>>k, h&&k) {
+
+    }
+
+
     return EXIT_SUCCESS;
 }
