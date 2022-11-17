@@ -2,9 +2,11 @@
 
 Problem Description
 
-## Solve:
+## Solve
+
 - Sol:
 How to do and how i think
 
-## Note:
+## Note
+
 - Something to attent

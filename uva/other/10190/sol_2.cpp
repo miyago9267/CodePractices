@@ -9,15 +9,21 @@ signed main(){
 	IO;
 	int n, m;
 	while (cin>>n>>m) {
-		int t = (int)(log10(n)/log10(m));
-		if (t > 0 && n == (int)(pow(m, t))) {
-			while (n != 1) {
-				cout << n << " ";
-				n /= m;
-			}
-			cout << "1";
+		int t = round(log10(n)/log10(m));
+		if (t>0 && n == (int)(pow(m, t))) {
+			while (n != 1) cout<<n<<" ", n /= m;
+			cout<<"1";
 		}
-		else cout << "Boring!";
+		else cout<<"Boring!";
 		cout<<endl;
 	}
 }
+
+/*  owo owo owo owo
+
+
+
+
+
+
+*/

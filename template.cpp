@@ -1,15 +1,10 @@
-// By myg9267
-// i m suck at coding, so sad
-// it a me mario
 #include <bits/stdc++.h>
-#pragma GCC optimize("O1")
-#pragma GCC optimize("O2")
-#pragma GCC optimize("O3")
 #define endl "\n"
 #define endll "\n\n"
-#define pb emplace_back
-#define IO ios_base::sync_with_stdio(0);cin.tie(0);cout.sync_with_stdio(0)
+#define pb push_back
+#define IO ios_base::sync_with_stdio(0)
 #define ll long long
+#define inf 0x3f3f3f3f
 #define MAXN maxn
 #define MODN modn
 
@@ -25,12 +20,13 @@ class Solution{
 signed main(){
     IO;
     #ifdef DEBUG
-		freopen("p.in", "r", stdin);
-		freopen("p.out", "w", stdout);
+        cin.tie(0);cout.sync_with_stdio(0);
+        string rootPath = "";
+		freopen(rootPath + "/Debug/t.in", "r", stdin);
+		freopen(rootPath + "/Debug/t.out", "w", stdout);
 	#endif
 
     // TODO
 
-    
     return EXIT_SUCCESS;
 }
