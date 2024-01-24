@@ -10,23 +10,27 @@
 
 using namespace std;
 
-class Solution{
-    public:
+// ---------------------------------------------------------------- //
 
+class Solution {
+    public:
+        Solution() {}
+        ~Solution() {}
     private:
-    
 };
 
-signed main(){
+void solve() {}
+
+signed main() {
     IO;
     #ifdef DEBUG
         cin.tie(0);cout.sync_with_stdio(0);
-        string rootPath = "";
-		freopen(rootPath + "/Debug/t.in", "r", stdin);
-		freopen(rootPath + "/Debug/t.out", "w", stdout);
-	#endif
+        string rootPath = "/data/miyago/ContestWriteUp";
+        freopen((rootPath+"/Debug/t.in").c_str(), "r", stdin);
+        freopen((rootPath+"/Debug/t.out").c_str(), "w", stdout);
+    #endif
 
-    // TODO
+    solve();
 
     return EXIT_SUCCESS;
 }
