@@ -19,7 +19,14 @@ class Solution {
     private:
 };
 
-void solve() {}
+void solve() {
+    int n, a = 0, b = 0; cin >> n;
+    while (n--) {
+        int x, y; cin >> x >> y;
+        a += x; b += y;
+    }
+    cout << (a > b ? "Takahashi" : (a < b ? "Aoki" : "Draw")) << endl;
+}
 
 signed main() {
     IO;
