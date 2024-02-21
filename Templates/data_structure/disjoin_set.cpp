@@ -9,6 +9,12 @@ class Solution {
         }
         ~Solution() {}
 
+        /*
+            * @param x: An integer
+            * @param y: An integer
+            * @return: if x and y are connected
+        */
+
         void Union(int x, int y) {
             int fx = Find(x), fy = Find(y);
             if (fx != fy)
